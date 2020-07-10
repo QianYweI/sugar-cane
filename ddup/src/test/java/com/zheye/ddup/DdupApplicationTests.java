@@ -1,10 +1,10 @@
-package com.ddup.zheye.demo;
+package com.zheye.ddup;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class DdupApplicationTests {
 
     @Test
     void contextLoads() {

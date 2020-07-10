@@ -1,13 +1,13 @@
-package com.ddup.zheye.demo;
+package com.zheye.ddup;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class DdupApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(DdupApplication.class, args);
     }
 
 }
