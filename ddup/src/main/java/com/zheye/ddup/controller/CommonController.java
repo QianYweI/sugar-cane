@@ -33,5 +33,5 @@ public class CommonController {
         }
         return "Hello, my name is " + name + " !";
     }
-    
+
 }
