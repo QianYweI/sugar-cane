@@ -25,12 +25,13 @@ public class CommonController {
     @RequestMapping(value = "/greet", method = RequestMethod.GET)
     public String greet(String name, Integer age) {
         log.info("param name : {}, age: {}", name, age);
-        if (StringUtils.isEmpty(name)){
+        if (StringUtils.isEmpty(name)) {
             throw new IllegalArgumentException("name can not be null !");
         }
-        if (age < 18){
+        if (age < 18) {
             return "少儿不宜！！";
         }
         return "Hello, my name is " + name + " !";
     }
+    
 }

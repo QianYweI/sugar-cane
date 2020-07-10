@@ -13,7 +13,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 @EnableSwagger2
 public class Swagger2Config {
-
     private static final DocumentationType SWAGGER_DDUP = new DocumentationType("swagger-ddup", "1.0");
 
     @Bean

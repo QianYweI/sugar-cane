@@ -9,5 +9,4 @@ public class DdupApplication {
     public static void main(String[] args) {
         SpringApplication.run(DdupApplication.class, args);
     }
-
 }
